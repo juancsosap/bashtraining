@@ -1,0 +1,33 @@
+#!/usr/bin/expect
+
+if $argc<5 {
+    send_user "Usage: $argv0 ip-address username password protocol command \n"
+    send_user "Where: \n\n"
+    send_user "\t ip-address  -  Is the IP address of the node\n"
+    send_user "\t username    -  Is the login user to access to the node\n"
+    send_user "\t password    -  Is the login password of access to the node\n"
+    send_user "\t protocol    -  Is the Protocol user to access to the node (telnet\|ssh)\n"
+    send_user "\t command     -  Is the CLI Command that must be send to the node\n"
+    exit
+}
+
+set _IP   [lindex $argv 0]
+set _USER [lindex $argv 1]
+set _PASS [lindex $argv 2]
+set _PROT [lindex $argv 3]
+set _COMM ""
+
+for {set i 4} {$i < $argc} {incr i 1} {
+    set _COMM "$_COMM\r[lindex $argv $i]"
+}
+
+set timeout 420
+
+spawn $_PROT -l $_USER $_IP
+expect {
+	"*yes/no*"  { send "yes\r"; exp_continue }
+	"*ogin:"    { send "$_USER\r"; exp_continue }
+	"*assword:" { send "$_PASS\r"; exp_continue }
+	"*#*"       { send "environment no more\r\n$_COMM\r\nsleep 2\r\nlogout\r\n"; exp_continue }
+}
+exit
