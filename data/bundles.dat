@@ -1,0 +1,29 @@
+172.26.34.200;bundle-ppp-1/3.1;network;mlppp;4;2;3968KBit;up;up;1/3/1.1.1.3.1 1/3/1.1.2.1.1 ;TO_CYQE_(MLPPP_1,5*E1)
+172.26.34.200;bundle-ppp-1/3.2;network;mlppp;7;1;1984KBit;up;up;1/3/1.1.4.1.1 1/3/1.1.4.2.1 1/3/1.1.2.2.1 1/3/1.1.2.3.1;TO_CYQE_(MLPPP_2,7*E1)
+172.26.34.200;bundle-ima-1/3.3;access;ima-grp;7;0;0KBit;up;down;1/3/1.1.3.1.1 1/3/1.1.3.2.1 1/3/1.1.3.3.1 1/3/1.1.4.3.1;GRUPO_IMA_COYHAIQUE
+172.26.34.200;bundle-ima-1/3.4;access;ima-grp;0;0;0KBit;down;down;;IMA_GROUP_COYHAIQUE
+172.26.39.16;bundle-ima-1/2.1;access;ima-grp;0;0;0KBit;down;down;;MultiLinkBundle
+172.26.55.144;bundle-ima-1/2.1;access;ima-grp;2;0;0KBit;up;down;1/2/1.1 ;MultiLinkBundle
+192.168.226.1;bundle-ima-1/1.1;access;ima-grp;1;0;0KBit;up;down;1/1/1.1;IMA_(2xE1s)_01W022_SUCURSAL_IQUIQUE
+192.168.230.11;bundle-ima-1/1.2;access;ima-grp;2;0;0KBit;up;down;1/1/13.1 ;IMA_(2xE1s)_05W330_PORTILLO
+192.168.230.11;bundle-ima-1/1.5;access;ima-grp;4;0;0KBit;up;down;1/1/14.1 1/1/3.1 ;IMA_(2xE1s)_05W022_LOSANDES
+192.168.230.11;bundle-ima-1/1.6;access;ima-grp;2;0;0KBit;up;down;1/1/4.1 ;IMA_(2xE1s)_05W361_TERMAS_DEL_CORAZON
+192.168.233.85;bundle-ima-1/1.1;access;ima-grp;1;0;0KBit;up;down;1/1/1.1;IMA_(1xE1s)_08W611_RutaSanPedroCoronel
+192.168.237.11;bundle-ppp-1/1.1;network;mlppp;5;2;3968KBit;up;up;1/1/3.1 1/1/4.1 1/1/8.1;TO_STGO_CNDR_(MLPPP_1,5*E1s)
+192.168.237.11;bundle-ppp-1/1.2;network;mlppp;7;1;1984KBit;up;up;1/1/9.1 1/1/11.1 1/1/1.1 1/1/2.1;TO_STGO_CNDR_(MLPPP_2,7*E1s)
+192.168.239.11;bundle-ima-1/1.1;access;ima-grp;2;0;0KBit;up;down;1/1/1.1 ;IMA_(2xE1s)_13W840_ESTERASSUR
+192.168.239.11;bundle-ima-1/1.2;access;ima-grp;2;0;0KBit;up;down;1/1/2.1 ;IMA_(2xE1s)_13W914_SANTAMARTA2
+192.168.239.11;bundle-ima-1/1.3;access;ima-grp;2;0;0KBit;up;down;1/1/3.1 ;IMA_(2xE1s)_13W566_LOCAMPINO
+192.168.239.20;bundle-ima-1/1.1;access;ima-grp;2;0;0KBit;down;down;1/1/1.1 ;IMA_(2xE1s)_13W217_UNIMARC_AVDA_RAMON_FREIRE
+192.168.239.20;bundle-ima-1/1.2;access;ima-grp;2;0;0KBit;down;down;1/1/2.1 ;IMA_(2xE1s)_13W953_EKONO_OLIMPO
+192.168.239.20;bundle-ima-1/1.4;access;ima-grp;2;0;0KBit;up;down;1/1/3.1 ;IMA_(2xE1s)_13W273_NORTE_MONEDA
+192.168.239.21;bundle-ima-1/1.1;access;ima-grp;2;0;0KBit;up;down;1/1/1.1 ;MultiLinkBundle
+192.168.239.44;bundle-ima-1/1.1;access;ima-grp;4;0;0KBit;up;down;1/1/1.1 1/1/2.1 ;TO_IMA_(4*E1)_13W403_ELOISA_CORREA
+192.168.239.72;bundle-ima-1/1.1;access;ima-grp;2;0;0KBit;up;down;1/1/1.1 ;IMA_(2xE1s)_13W828_ESTACION_COLINA
+192.168.239.72;bundle-ima-1/1.2;access;ima-grp;2;0;0KBit;up;down;1/1/2.1 ;IMA_(2xE1s)_13W412_COLINA_NORTE
+192.168.239.81;bundle-ima-1/1.1;access;ima-grp;2;0;0KBit;up;down;1/1/1.1 ;IMA_(2xE1s)_13W409_TobalabaElValle
+192.168.239.81;bundle-ima-1/1.2;access;ima-grp;2;0;0KBit;up;down;1/1/2.1 ;IMA_(2xE1s)_13W721_Grecia-Consistorial
+192.168.239.81;bundle-ima-1/1.3;access;ima-grp;2;0;0KBit;up;down;1/1/3.1 ;IMA_(2xE1s)_13W822_Consistorial-VolcanAntuco
+192.168.239.81;bundle-ima-1/1.4;access;ima-grp;2;0;0KBit;up;down;1/1/4.1 ;IMA_(2xE1s)_13W712_LasPircas
+192.168.239.81;bundle-ima-1/1.5;access;ima-grp;2;0;0KBit;up;down;1/1/5.1 ;IMA_(2xE1s)_13W740_GRAL.HUMBERTOMENESES-AVDA.QUILIN
+192.168.239.81;bundle-ima-1/1.6;access;ima-grp;2;0;0KBit;up;down;1/1/6.1 ;IMA_(2xE1s)_13W220_UNIMARC-LAS_PARCELAS_9001
